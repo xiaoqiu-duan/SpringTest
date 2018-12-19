@@ -1,4 +1,4 @@
-package com.xq.bean;
+package com.xq.annotationBean;
 
 import org.springframework.stereotype.Component;
 

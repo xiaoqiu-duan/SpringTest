@@ -1,4 +1,4 @@
-package com.xq;
+package com.xq.bean;
 
 /**
  * Package: com.xq

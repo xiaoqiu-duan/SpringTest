@@ -1,5 +1,6 @@
 package com.xq;
 
+import com.xq.bean.HelloWorld;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -11,11 +12,10 @@ public class App
 {
     public static void main( String[] args )
     {
-        /*//1.创建spring的ioc容器对象
+        //1.创建spring的ioc容器对象
         ApplicationContext ctx = new ClassPathXmlApplicationContext("Spring.xml");
         //2.从ioc容器中获取bean实例
         HelloWorld helloWorld = (HelloWorld) ctx.getBean("helloWord");
-        helloWorld.hello();*/
-        ApplicationContext ac = new ClassPathXmlApplicationContext("Spring.xml");
+        helloWorld.hello();
     }
 }

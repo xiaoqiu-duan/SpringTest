@@ -5,11 +5,11 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:annotation-config/>
-    <context:component-scan base-package="com.xq.bean"/>
+    <context:component-scan base-package="com.xq.annotationBean"/>
 
-    <!--<bean id="helloWord" class="com.xq.HelloWorld">
+    <bean id="helloWord" class="com.xq.bean.HelloWorld">
         <property name="name" value="spring"></property>
-    </bean>-->
+    </bean>
 
 
 </beans>
